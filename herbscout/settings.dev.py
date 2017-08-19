@@ -25,7 +25,8 @@ SECRET_KEY = 'pq03_h4!1*5j-b5#alr^44$hddbur#rd=gqdhg_#9ve*s7u%r^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.42.64','0.0.0.0','localhost','herbscout.herokuapp.com']
+ALLOWED_HOSTS = []
+
 
 # Application definition
 
@@ -37,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app',
+    'image_classifier',
+    'search_engine',
 ]
 
 MIDDLEWARE = [
